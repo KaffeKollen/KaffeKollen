@@ -1,9 +1,12 @@
 import React from 'react';
+import { CardTemplate } from './card-template.tsx';
 
 export const CurrentVolume: React.FC = ({}) => {
 	return (
-		<div className="m-4 h-64 w-80 bg-gray-400">
-			<div className="text-xl ">Kaffe volym</div>
-		</div>
+		<CardTemplate>
+			<div className="h-row1 w-box1w">
+				<div className="text-3xl font-bold text-gray-900">68% kvar</div>
+			</div>
+		</CardTemplate>
 	);
 };

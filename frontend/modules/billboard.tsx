@@ -13,7 +13,7 @@ export const Billboard: React.FC = ({}) => {
 					<CurrentVolume />
 					<InfoSign />
 				</div>
-				<CoffeChart />
+				<CoffeChart className="h-120 w-220" />
 			</div>
 			<Leaderboard />
 		</div>

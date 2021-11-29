@@ -5,8 +5,8 @@ import { Billboard } from '../modules/billboard.tsx';
 
 export default function Home() {
 	return (
-		<div className="h-screen flex justify-center content-center bg-gray-600">
-			<div className="w-320 bg-gray-500 my-auto mx-4">
+		<div className="h-screen bg-gradient-to-b from-white to-blue-100 flex justify-center content-center ">
+			<div className="w-320  my-auto mx-4">
 				<Header />
 				<Billboard />
 			</div>
@@ -16,8 +16,6 @@ export default function Home() {
 				body {
 					padding: 0;
 					margin: 0;
-					font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-						Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 				}
 
 				* {
