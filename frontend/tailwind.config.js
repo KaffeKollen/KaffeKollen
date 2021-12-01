@@ -5,7 +5,8 @@ module.exports = {
 	theme: {
 		extend: {
 			dropShadow: {
-				'3xl': '0 0 8px rgba(0, 0, 0, 0.1)',
+				'2xl': '0 1px 5px rgba(0, 0, 0, 0.12)',
+				'3xl': '0 0 8px rgba(0, 0, 0, 0.07)',
 			},
 			sans: [
 				"sans-serif",
@@ -25,27 +26,20 @@ module.exports = {
 			],
 			mono: ["Source Code Pro", "Menlo", "monospace"],
 			spacing: {
-				'row1': '13rem',
-				'box1w': '19rem',
-				'box2w': '26rem',
-				'table1h': '44rem',
-				'table1w': '14rem',
-				'chart1h': '23rem',
-				'chart1w': '52rem',
-				'64': '16rem',
-				'80': '20rem',
-				'120': '30rem',
-				'132': '33rem',
-				'160': '40rem',
-				'200': '50rem',
-				'220': '55rem',
-				'240': '60rem',
-				'320': '80rem'
-			}
+				'15': '3.63rem',
+				'320': '60rem'
+			},
+			maxWidth: {
+				'xs': '16rem',
+			   }
 		},
 		borderRadius: {
+			'lg': '0.5rem',
 			'3xl': '1.5rem',
 			'4xl': '2rem'
+		  },
+		  screens: {
+			'md': '1000px',
 		  }
 	},
 	variants: {

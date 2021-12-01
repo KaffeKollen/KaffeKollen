@@ -5,8 +5,9 @@ import { Billboard } from '../modules/billboard.tsx';
 
 export default function Home() {
 	return (
-		<div className="h-screen bg-gradient-to-b from-white to-blue-100 flex justify-center content-center ">
-			<div className="w-320  my-auto mx-4">
+		<div className="min-h-screen w-screen bg-gray-100 flex justify-center content-center overflow-hidden">
+		{/* <div className="min-h-screen w-screen bg-gradient-to-br from-yellow-100 to-red-100 flex justify-center content-center overflow-hidden"> */}
+			<div className="w-320 my-auto p-6">
 				<Header />
 				<Billboard />
 			</div>

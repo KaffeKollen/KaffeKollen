@@ -7,7 +7,7 @@ import AbbLogoSVG from '../../public/abb-logga.svg';
 export const InfoSign: React.FC = ({}) => {
 	return (
 		<CardTemplate>
-			<div className="h-row1 w-box2w">
+			<div className="grid-span-7">
 				<img src={AbbLogoPNG} alt="ABB Logo" />
 				<img src={AbbLogoSVG} alt="ABB Logo" />
 				<div className="text-xl  font-bold">ABB</div>
