@@ -4,22 +4,20 @@ import { Header } from "../modules/header.tsx";
 import { Billboard } from "../modules/billboard.tsx";
 
 export default function Home() {
-  return (
-    <div className="h-screen flex justify-center content-center bg-gray-600">
-      <div className="w-320 bg-gray-500 my-auto mx-4">
-        <Header />
-        <Billboard />
-      </div>
+	return (
+		<div className="min-h-screen w-screen bg-gray-100 flex justify-center content-center overflow-hidden">
+		{/* <div className="min-h-screen w-screen bg-gradient-to-br from-yellow-100 to-red-100 flex justify-center content-center overflow-hidden"> */}
+			<div className="w-320 my-auto p-6">
+				<Header />
+				<Billboard />
+			</div>
 
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
+			<style jsx global>{`
+				html,
+				body {
+					padding: 0;
+					margin: 0;
+				}
 
         * {
           box-sizing: border-box;
