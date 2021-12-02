@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import './store';
 
 import { Header } from "../modules/header.tsx";
 import { Billboard } from "../modules/billboard.tsx";
