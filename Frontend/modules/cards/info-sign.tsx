@@ -5,17 +5,6 @@ import AbbLogoPNG from "../../public/abb-logga.png";
 import AbbLogoSVG from "/public/abb-logga.svg";
 
 export const InfoSign: React.FC = ({}) => {
-<<<<<<< Updated upstream
-  return (
-    <CardTemplate>
-      <div className="grid-span-7">
-        <img src="/abb-logga.png" alt="ABB Logo" />
-        <img src="/abb-logga.svg" alt="ABB Logo" />
-        <div className="text-xl  font-bold">ABB</div>
-      </div>
-    </CardTemplate>
-  );
-=======
 	return (
 		<CardTemplate>
 			<div className="grid-span-7">
@@ -25,5 +14,4 @@ export const InfoSign: React.FC = ({}) => {
 			</div>
 		</CardTemplate>
 	);
->>>>>>> Stashed changes
 };
