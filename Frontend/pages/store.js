@@ -29,11 +29,20 @@ module.exports = global.store = {
             {name: 'Person6', score: '13'},
             {name: 'Person7', score: '12'},
             {name: 'Person8', score: '9'},
-            {name: 'Person9', score: '6'},
-            {name: 'Person10', score: '4'},
-            {name: 'Person11', score: '4'},
-            {name: 'Person12', score: '3'},
-            {name: 'Person13', score: '2'}
+            {name: 'Person9', score: '8'},
+            {name: 'Person10', score: '7'},
+            {name: 'Person11', score: '7'},
+            {name: 'Person12', score: '5'},
+            {name: 'Person13', score: '5'},
+            {name: 'Person14', score: '5'},
+            {name: 'Person15', score: '4'},
+            {name: 'Person16', score: '4'},
+            {name: 'Person17', score: '3'},
+            {name: 'Person18', score: '2'},
+            {name: 'Person19', score: '2'},
+            {name: 'Person20', score: '2'},
+            {name: 'Person21', score: '1'},
+            {name: 'Person22', score: '1'}
         ]
     }
 };

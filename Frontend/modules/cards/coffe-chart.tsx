@@ -5,21 +5,13 @@ const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export const CoffeChart: React.FC = ({}) => {
 	  var options = {
-		colors:['#e33b3b', '#a11f1f', '#e86464'],
+		colors:['#ff000f', '#a11f1f', '#e86464'],
 		dataLabels: { enabled: false },
 		grid: { show: false },
-		// tooltip: { enabled: false },
-		toolbar: { 
-			show: false,
-			tools: {
-				download: false,
-				selection: false,
-				zoom: false,
-				zoomin: false,
-				zoomout: false,
-				pan: false,
-				reset: false
-			}, 
+		chart: {
+			toolbar: {
+			show: false
+			},
 		},
 		fill: {
 		  type: "gradient",
@@ -37,7 +29,8 @@ export const CoffeChart: React.FC = ({}) => {
 
 	return (
 		<CardTemplate>
-			<div className="text-xl ml-2 font-bold text-gray-900">Kaffekoppar per dag senaste veckan</div>
+			<div className="text-xl text-center font-bold text-gray-900">Kaffekoppar per dag</div>
+			<div className="h-full">
 			<Chart
               options={options}
               series={global.store.lineChart.series}
@@ -45,6 +38,7 @@ export const CoffeChart: React.FC = ({}) => {
               height="100%"
 			  width="100%"
             />
+			</div>
 		</CardTemplate>
 	);
 };

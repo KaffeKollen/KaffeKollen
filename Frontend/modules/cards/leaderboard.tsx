@@ -35,7 +35,7 @@ const ItemList = (props) => {
 	var items = [];
 
 	data.forEach(function(d, index) {
-		if (index < 10) {
+		if (index < 12) {
 			items.push(
 				<div className="w-full h-6 bg-f-100 py-1 text-xs text-gray-900 font-bold text-center grid grid-cols-9">
 					<div >{index+1}</div>
@@ -47,7 +47,7 @@ const ItemList = (props) => {
 	});
 
 	return (
-		<div className="flex flex-col mt-3 px-1 space-y-1 max-w-md mx-auto">
+		<div className="flex flex-col mt-3 h-64 md:mb-8 mb-20 px-1 space-y-1 max-w-md mx-auto">
 			{items}
 		</div>	
 	)
