@@ -31,7 +31,7 @@ const Podium = (props) => {
 	)
 }
 
-const ItemList = (props) => {
+const ItemList = () => {
 	var items = [];
 
 	data.forEach(function(d, index) {

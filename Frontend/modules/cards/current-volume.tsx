@@ -25,7 +25,7 @@ export const CurrentVolume: React.FC = ({}) => {
 					{/* <div className="absolute w-full h-full mt-24 align-middle">
 						<div className="relative  text-center">hej</div>
 					</div> */}
-					<div className="w-full py-1 px-2 md:ml-0 ml-4">
+					<div className="w-full py-1 pl-1">
 						<div className="md:text-3xl text-2xl font-bold text-gray-900">{global.store.current_volume}% kvar</div>
 						<div className="md:text-lg text-sm font-bold text-gray-900">i kaffemaskinen</div>
 					</div>

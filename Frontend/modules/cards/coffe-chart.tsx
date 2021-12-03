@@ -8,11 +8,7 @@ export const CoffeChart: React.FC = ({}) => {
 		colors:['#ff000f', '#a11f1f', '#e86464'],
 		dataLabels: { enabled: false },
 		grid: { show: false },
-		chart: {
-			toolbar: {
-			show: false
-			},
-		},
+		chart: { toolbar: { show: false } },
 		fill: {
 		  type: "gradient",
 		  gradient: {
