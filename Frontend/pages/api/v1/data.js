@@ -1,6 +1,5 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, child, get, set } from "firebase/database";
-import { json } from "stream/consumers";
 // const firebase = require("firebase");
 
 // function writeData(distance) {
@@ -54,8 +53,8 @@ const handler = async (req, res) => {
       // }
     })
     .catch((error) => {
+      // res.status
       console.error(error);
-      res.status(500).send(error);
     });
 };
 
