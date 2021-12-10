@@ -21,7 +21,7 @@ module.exports = global.store = {
   },
   leaderboards: {
     week: [
-      { name: "Person1 Person1 Person1 Person1 Person1Person1 ", score: "25" },
+      { name: "Person1", score: "25" },
       { name: "Person2", score: "18" },
       { name: "Person3", score: "16" },
       { name: "Person4", score: "16" },
