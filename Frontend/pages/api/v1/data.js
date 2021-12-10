@@ -11,14 +11,14 @@ import { getDatabase, ref, child, get, set } from "firebase/database";
 
 const handler = async (req, res) => {
   const firebaseConfig = {
-    apiKey: "AIzaSyAvzvcWmAKK7rV8JYaqq74QfJM_qYuq8p8",
-    authDomain: "coffee-6e4d3.firebaseapp.com",
-    databaseURL:
-      "https://coffee-6e4d3-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "coffee-6e4d3",
-    storageBucket: "coffee-6e4d3.appspot.com",
-    messagingSenderId: "395615411484",
-    appId: "1:395615411484:web:e2cbe1d5ce0e0a851faed9",
+    apiKey: "AIzaSyAlrwGdgV2vUix-k8eErZq-ZSLHK-ELs3k",
+    authDomain: "cathome-77c06.firebaseapp.com",
+    databaseURL: "https://cathome-77c06.firebaseio.com",
+    projectId: "cathome-77c06",
+    storageBucket: "cathome-77c06.appspot.com",
+    messagingSenderId: "907221851080",
+    appId: "1:907221851080:web:9b4451743c988d768ffefd",
+    measurementId: "${config.measurementId}",
   };
 
   const app = initializeApp(firebaseConfig);
